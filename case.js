@@ -6,3 +6,16 @@ if (food.toLocaleLowerCase === myFood.toLocaleLowerCase) {
 } else {
   console.log("ajke ar khaitei mon chaitese nh ");
 }
+
+// 2nd Type
+
+let presentAddr = "Dhaka";
+let permantAddr = "  DhAkA  ";
+
+if (
+  presentAddr.toLocaleUpperCase().trim() === permantAddr.toLocaleUpperCase().trim()
+) {
+  console.log("oh you are from the same district");
+} else {
+  console.log("ami gram theke dhaka aisi sir");
+}
