@@ -12,4 +12,10 @@ console.log(fdName);
 // So myFd has no own properties, but it inherits from fd.
 // So console.log(myFd) logs {} (because it has no own keys)
 const myFd = Object.create(fd);
-console.log(myFd);
+console.log(myFd.fd3);
+// *********** \\
+var person = new Object();
+person.fristName = "Khandokar";
+person.lastName = "sahaf";
+
+console.log(person);
